@@ -31,6 +31,7 @@
     border-radius: 6px;
     border: none;
     background: rgba(82, 195, 3, 1);
+    cursor: pointer;
 }
 #hero .hero-content{
     width: 685px;
@@ -75,6 +76,7 @@
 #card-box{
     width: 884px;
     margin: 111px auto;
+
 }
 
 #card-box .title{
@@ -101,4 +103,31 @@
 
 .card-container{
     margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    max-width: 284px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Work Sans;
+}
+.card .image-box{
+    width: 284px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.shop{
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 9px 21px 9px 21px;
+}
+.card p{
+    color: rgba(16, 16, 16, 1);
+    opacity: 0.7;
 }
